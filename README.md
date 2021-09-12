@@ -216,7 +216,7 @@ console.log(person1.fullName); // John Doe
 
 
 
-example 2:
+- example 2:
 
 ```javascript
 
