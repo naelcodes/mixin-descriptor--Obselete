@@ -99,4 +99,3 @@ function mixin (dest, source, redefine = true, setting = {}, selectedDescriptors
 	}
 }
 
-module.exports = mixin;

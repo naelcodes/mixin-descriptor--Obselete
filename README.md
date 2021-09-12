@@ -36,13 +36,13 @@ mixin( destination ,source ,redefine=true ,settings={} ,selectedDescriptors=[] )
   - **`fields`** if set to **`true`**,   the property fields of the **`source`** will be added to that of **`destination`**, and if **`false`**  the property fields of the **`source`** will be excluded.
   - **`methods`**: if set to **`true`**, the property methods of the **`source`** will be added to that of **`destination`**, and if **`false`**  the property methods of the **`source`** will be excluded.
   - By default, **`fields`** and **`methods`** are set to **`true`**
-  - The **`mixin`**  function throws an error if the other names are used instead of **`fields`**and **`methods`** 
+  - The **`mixin`**  function throws an error if the other names are used instead of `fields`and **`methods`** 
 
   
 
 - **`selectedDescriptors`**: An array of  string with the **`names`** of the  specific**`source`**‘s properties’ we want to add to the **`destination`**. 
 
-  - **<u>Note</u>** : Only the **`properties`**  of  **`source`** with the `names`  given in **`selectedDescriptors`** array  will be added, all the other **`source`** properties will be excluded
+  - **<u>Note</u>** : Only the **`properties`**  of  **`source`** with the `names`  given in **`selectedDescriptors`** array  will be added, all the other `source` properties will be excluded
   - The merge of the **`names`** will depend on the parameters of **`settings`**
   - The **`mixin`** function will throw a ReferenceError if the **`names`** being passed aren’t present in the **`source`**'s properties.
 
@@ -108,7 +108,7 @@ let person1 = {
 
 const newPerson1 = new Person(person1);
 
-console.log(newPerson1.sayHello()); // Hello I am Dcratv Dev
+console.log(newPerson1.sayHello()); // Hello I am Dcrativ Dev
 ```
 
 
