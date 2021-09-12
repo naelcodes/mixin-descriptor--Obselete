@@ -40,7 +40,7 @@ mixin( destination ,source ,redefine=true ,settings={} ,selectedDescriptors=[] )
 
   
 
-- **`selectedDescriptors`**: An array of  string with the **`names`** of the  specific**`source`**‘s properties’ we want to add to the **`destination`**. 
+- **`selectedDescriptors`**: An array of  string with the **`names`** of the  specific`source`‘s properties’ we want to add to the **`destination`**. 
 
   - **<u>Note</u>** : Only the **`properties`**  of  **`source`** with the `names`  given in **`selectedDescriptors`** array  will be added, all the other `source` properties will be excluded
   - The merge of the **`names`** will depend on the parameters of **`settings`**
