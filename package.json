@@ -1,0 +1,19 @@
+{
+  "name": "mixin",
+  "version": "1.0.0",
+  "description": "mergers properties of one object to that of another object",
+  "main": "mixin.js",
+  "author":{
+    "name": "Nana Emmanuel",
+    "pseudo" : "Dcrativ-dev"
+  }, 
+  "license": "MIT",
+  "repository": "dcrativ-dev/mixin-descriptors",
+  "files": [
+    "HISTORY.md",
+    "LICENSE",
+    "README.md",
+    "index.js"
+  ],
+  "keywords": ["mixin,descriptors"]
+}
