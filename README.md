@@ -1,6 +1,6 @@
 # Mixin Descriptors
 
-This library is an enhance version of  another library called  [merge-descriptors](https://github.com/component/merge-descriptors). It Merges objects using property descriptors(fields & methods). This enhanced version enables, 
+This library is an enhance version of  another library called  [merge-descriptors](https://github.com/component/merge-descriptors). It merges objects property descriptors(fields & methods). This enhanced version enables, 
 
 - The merge of specific property fields or methods 
 - The merge of  property fields only or property methods only
