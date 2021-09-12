@@ -16,7 +16,7 @@ mixin( destination ,source ,redefine=true ,settings={} ,selectedDescriptors=[] )
 
 ```
 
-- **`dest`** : The object to which the **`source`** properties will be added.
+- **`dest`** : The object to which the **`source`** properties will be added or merged.
 
   
 
@@ -24,7 +24,7 @@ mixin( destination ,source ,redefine=true ,settings={} ,selectedDescriptors=[] )
 
   
 
-- **`redefine`**: A boolean value, which determines whether we want to redefine the **`destination`** properties  who has similar names with the **`source`** properties
+- **`redefine`**: A boolean value, which determines whether we want to redefine the **`destination`** properties  who have similar names with the **`source`** properties
 
   - Set it to **`true`** to redefine the properties  of **`destination`** and to **`false`** to  keep the **`original`** properties.
   - By default, **`redefine`** is set to **`true`**.
@@ -36,6 +36,7 @@ mixin( destination ,source ,redefine=true ,settings={} ,selectedDescriptors=[] )
   - **`fields`** if set to **`true`**,   the property fields of the **`source`** will be added to that of **`destination`**, and if **`false`**  the property fields of the **`source`** will be excluded.
   - **`methods`**: if set to **`true`**, the property methods of the **`source`** will be added to that of **`destination`**, and if **`false`**  the property methods of the **`source`** will be excluded.
   - By default, **`fields`** and **`methods`** are set to **`true`**
+  - setting must have at least one property either `fields` or `methods`  or both.
   - The **`mixin`**  function throws an error if the other names are used instead of `fields`and **`methods`** 
 
   
@@ -43,7 +44,7 @@ mixin( destination ,source ,redefine=true ,settings={} ,selectedDescriptors=[] )
 - **`selectedDescriptors`**: An array of  string with the **`names`** of the  specific`source`‘s properties’ we want to add to the **`destination`**. 
 
   - **<u>Note</u>** : Only the **`properties`**  of  **`source`** with the `names`  given in **`selectedDescriptors`** array  will be added, all the other `source` properties will be excluded
-  - The merge of the **`names`** will depend on the parameters of **`settings`**
+  - The merge of  **`names`** will depend on the parameters of **`settings`**
   - The **`mixin`** function will throw a ReferenceError if the **`names`** being passed aren’t present in the **`source`**'s properties.
 
   
