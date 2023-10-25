@@ -1,4 +1,4 @@
-# Mixin Descriptors
+# Mixin Descriptors [Obselete]
 
 This library is an enhance version of  another library called  [merge-descriptors](https://github.com/component/merge-descriptors). It merges objects property descriptors(fields & methods). This enhanced version enables, 
 
